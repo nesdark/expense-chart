@@ -25,7 +25,7 @@ The project involves:
 ![](./.github/banner.jpg)
 
 <h3 id="links">:link: Links</h3>
--  Live Site URL: [Add live site URL here](https://nesdark.github.io/expense-chart/)
+-  Live Site URL: [Here](https://nesdark.github.io/expense-chart/)
 
 <h2 id="my-process">:gear: My process</h2>
 
