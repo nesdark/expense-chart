@@ -48,4 +48,4 @@ for(let variable in object) {
 ```
 
 <h3 id="author">:fountain_pen: Author</h3>
-- Website - [Christian Henrique](https://nesdark.github.io/portifolio/)
+- Website: https://nesdark.github.io/portifolio
