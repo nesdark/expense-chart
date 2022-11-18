@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NesChart</title>
+
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="card">
+        <div class="info">
+          <p>My balance</p>
+          <h3 id="balance">$921.48</h3>
+        </div>
+        <img src="./images/logo.svg" alt="Logo" />
+      </header>
+      <main class="card">
+        <section id="chart">
+          <h2>Spending - Last 7 days</h2>
+          <div class="charts">
+            <div class="mon chart">
+              <div class="cell">
+                <div class="pop-up">
+                  <p class="day-value">$130</p>
+                </div>
+              </div>
+              <div class="day">mon</div>
+            </div>
+            <div class="tue chart">
+              <div class="cell">
+                <div class="pop-up">
+                  <p class="day-value">$240</p>
+                </div>
+              </div>
+              <div class="day">tue</div>
+            </div>
+            <div class="wed chart">
+              <div class="cell">
+                <div class="pop-up">
+                  <p class="day-value">$510</p>
+                </div>
+              </div>
+              <div class="day">wed</div>
+            </div>
+            <div class="thu chart today">
+              <div class="cell">
+                <div class="pop-up">
+                  <p class="day-value">$200</p>
+                </div>
+              </div>
+              <div class="day">thu</div>
+            </div>
+            <div class="fri chart">
+              <div class="cell">
+                <div class="pop-up">
+                  <p class="day-value">$170</p>
+                </div>
+              </div>
+              <div class="day">fri</div>
+            </div>
+            <div class="sat chart">
+              <div class="cell">
+                <div class="pop-up">
+                  <p class="day-value">$460</p>
+                </div>
+              </div>
+              <div class="day">sat</div>
+            </div>
+            <div class="sun chart">
+              <div class="cell">
+                <div class="pop-up">
+                  <p class="day-value">$310</p>
+                </div>
+              </div>
+              <div class="day">sun</div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <section id="total">
+          <p>Best value this week</p>
+          <div class="container">
+            <h2 id="bestDay">$478.33</h2>
+            <div class="info">
+              <strong id="worstDay">+2.4%</strong>
+              <small>worst value</small>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>Feito com 💜 por Christian Henrique</footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
